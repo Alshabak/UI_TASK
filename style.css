@@ -1,0 +1,117 @@
+*{
+      padding: 0;
+      margin: 0;
+
+}
+
+body{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      background-image: url(is.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+
+
+}
+
+.form-div {
+      box-shadow: 6px 5px 9px black;
+background-color: rgb(234, 235, 238);
+width: 30rem;
+height: 30rem;
+text-align: center;
+margin-top: 5rem;
+
+}
+
+
+.form-div img{
+      width: 40px;
+      height: 40px;
+      position: absolute;
+       top: 3.5rem;
+/* left: 40%; */ 
+      margin-bottom: 5rem;
+      /* transform: translate();
+      top: 2rem;
+      left: 5rem; */
+
+}
+
+.form-div form{
+      margin-top: 5rem;
+      text-align:center;
+
+}
+
+.form-div input{
+
+     color: #0A0A2A;
+     text-align: center;
+     font-size: medium; 
+     text-transform: capitalize;
+     margin-bottom: 2rem;
+    background-color: #F2E0F7;
+padding: 0.5rem;
+border: none;
+border: 3px outset darkslategrey;
+border-radius: 5rem;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+width: 13rem;
+height: 1.5rem;
+}
+
+
+.form-div input:focus{
+    border: none;
+    border-radius: 60rem;
+
+
+
+}
+
+.form-div button{
+
+color: black;
+     text-align: center;
+     font-size: medium; 
+     text-transform: capitalize;
+     font-weight: bold;
+     padding: 0.5rem;
+
+     border-radius: 5rem;
+border: none;
+     border: 1px outset rgb(0, 0, 0);
+     box-shadow: 2px 1px  3px black;
+     margin-bottom: 2rem;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+
+
+}
+
+#account{
+      text-align: center;
+      text-decoration: none;
+      color:black ;
+      text-transform: capitalize;
+     
+}
+
+#account:hover{
+      color: #0A0A2A;
+      font-weight: bold;
+}
+
+.form-div button:hover{
+      background-color: rgb(127, 224, 63);
+      /* color: white; */
+      box-shadow: 3px 3px 3px rgb(38, 43, 40);
+}
+
+
+.container{
+      margin: auto;
+      width: 1200px;
+}
